@@ -108,7 +108,7 @@ require (
 	go.opentelemetry.io/proto/otlp v1.3.1 // indirect
 	go.uber.org/multierr v1.11.0 // indirect
 	go.uber.org/zap v1.27.0 // indirect
-	golang.org/x/crypto v0.32.0 // indirect
+	golang.org/x/crypto v0.33.0 // indirect
 	golang.org/x/exp v0.0.0-20240719175910-8a7402abbf56 // indirect
 	golang.org/x/mod v0.20.0 // indirect
 	golang.org/x/net v0.34.0 // indirect
@@ -204,3 +204,5 @@ replace k8s.io/cri-client => k8s.io/cri-client v0.31.0
 replace google.golang.org/grpc => github.com/openshift-sustaining/grpc-go v1.71.3-sec.1
 
 replace golang.org/x/crypto => github.com/openshift-sustaining/crypto v0.33.0-sec.5
+
+replace golang.org/x/net => github.com/openshift-sustaining/net v0.35.0-sec.4
